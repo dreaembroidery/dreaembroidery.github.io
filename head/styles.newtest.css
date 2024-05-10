@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,800&display=swap');
+
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.header {
+    background-color: #301c09f8;
+    display: flex;
+    font-family: Tahoma,sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 5px 10%;
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.header .logo img {
+    height: 80px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+.header .btn button {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding: 9px 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover {
+    background-color: rgb(126, 88, 62);
+    color: white;
+    transform: scale(1.1);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.video-container {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.video-r {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.video-overlay1 {
+    position: absolute;
+    top: 50%; 
+    left: 25%; 
+    transform: translate(-50%, -50%);
+}
+
+.video-overlay2 {
+    position: absolute;
+    top: 50%; 
+    left: 75%; 
+    transform: translate(-50%, -50%); 
+}
+
+img {
+    width: 100%;
+    height: auto;
+  }
+.botonlogo {
+    background:none;
+    border: none;
+}
+
+.images {
+    position: fixed; /* Fija las imágenes en la parte inferior de la ventana del navegador */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center; /* Centra las imágenes horizontalmente */
+    padding: 20px 0; /* Espaciado entre las imágenes y el borde inferior */
+    background: #301c09f8;
+    
+}
+
+.images img {
+    width: 55px; /* Ancho de las imágenes */
+    height: 55px;
+    margin: 0 10px; /* Espaciado horizontal entre las imágenes */
+    background-color: transparent;
+}
+
+.popu {
+ margin-left: 80%;
+ padding: 0%;
+
+}
